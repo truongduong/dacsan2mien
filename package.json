@@ -1,8 +1,8 @@
 {
-  "title": "4 Col Portfolio",
-  "name": "startbootstrap-4-col-portfolio",
+  "title": "Dac San 2 Mien",
+  "name": "dacsan2mien",
   "version": "4.0.0-beta.2",
-  "description": "A four column portfolio HTML template built with Bootstrap",
+  "description": "An e-commerce website",
   "keywords": [
     "css",
     "sass",
@@ -30,7 +30,7 @@
     "jquery": "^3.2.1"
   },
   "devDependencies": {
-    "browser-sync": "2.18.13",
+    "browser-sync": "2.23.6",
     "gulp": "^3.9.1"
   }
 }
