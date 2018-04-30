@@ -8,8 +8,8 @@
       "root": "src",
       "outDir": "dist",
       "assets": [
-        { "glob": "**/*", "input": "./assets/", "output": "./assets/", "allowOutsideOutDir": true },
-        { "glob": "favicon.ico", "input": "./", "output": "./" }
+        "assets",
+        "favicon.ico"
       ],
       "index": "index.html",
       "main": "main.ts",
@@ -19,14 +19,15 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.scss"
+        "styles.scss",
+        "../src/assets/css/vendor/material-icons.min.css",
+        "../src/assets/css/vendor/socicon.min.css",
+        "../src/assets/css/vendor/bootstrap.min.css",
+        "../src/assets/css/theme.min.css"
       ],
-      "stylePreprocessorOptions": {
-        "includePaths": [
-          "../node_modules/bootstrap/scss"
-        ]
-      },
       "scripts": [
+        "../src/assets/js/vendor/page-preloading.js",
+        "../src/assets/js/vendor/modernizr.custom.js",
         "../src/assets/js/vendor/jquery-2.1.4.min.js",
         "../src/assets/js/vendor/bootstrap.min.js",
         "../src/assets/js/vendor/smoothscroll.js",
