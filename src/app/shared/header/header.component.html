@@ -27,7 +27,7 @@
 
   <!-- Main Navigation -->
   <!-- Control the position of navigation via modifier classes: "text-left, text-center, text-right" -->
-  <nav class="main-navigation text-center">
+  <nav class="main-navigation text-left">
     <ul class="menu">
       <li class="current-menu-item">
         <a [routerLink]="['/home']">Home</a>
@@ -48,8 +48,8 @@
           <!--<li><a href="account.html">User Account Page</a></li>-->
         <!--</ul>-->
       <!--</li>-->
-      <li><a href="#">Bến Tre</a></li>
       <li><a href="#">Nha Trang</a></li>
+      <li><a href="#">Ben tre</a></li>
       <!--<li class="menu-item-has-children">-->
         <!--<a href="#">Gallery</a>-->
         <!--<ul class="sub-menu">-->
@@ -91,15 +91,21 @@
         <!--</ul>-->
       <!--</li>-->
       <!---->
-      <li><a href="#">Liên hệ</a></li>
+      <!-- <li><a href="#">Liên hệ</a></li> -->
     </ul><!-- .menu -->
   </nav><!-- .main-navigation -->
 
   <!-- Toolbar -->
   <div class="toolbar">
     <div class="inner">
-      <a href="#" class="mobile-menu-toggle"><i class="material-icons menu"></i></a>
-      <a href="account.html"><i class="material-icons person"></i></a>
+      <!-- <a href="#" class="mobile-menu-toggle"><i class="material-icons menu"></i></a> -->
+      <!-- <a href="account.html"><i class="material-icons person"></i></a> -->
+      <a href="https://www.facebook.com/dacsan2mien" class="sb-facebook" data-toggle="tooltip" data-placement="top" title="Facebook" target="_blank">
+        <i class="socicon-facebook"></i>
+      </a>
+      <a href="#" class="sb-skype" data-toggle="tooltip" data-placement="top" title="Skype">
+          <i class="socicon-skype"></i>
+        </a>
       <div class="cart-btn">
         <a href="shopping-cart.html">
           <i>
